@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <title>La Tiendita Final</title>
+        
+        <!-- Linkeo FONTS - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Linkeo ICONS - Font Awesome -->
+    <script src="https://kit.fontawesome.com/f0822d9b2e.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <header class="contenedor-flex">
+            <a href="../index.html">
+                <img src="../media/img/BK-logo.png" alt="Logo del portfolio de Barbara Kleiman" />
+            </a>
+
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="../index.html#proyectos">Proyectos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="../pages/tiendita.html">La Tiendita Final</a></li> <!-- 🚀 Nuevo enlace -->
+                    <li><a href="../pages/contact.html">Contact Me</a>
+                        <span style="margin-left: 0.2rem;">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Inicio Tiendita -->
+            <section class="section2">
+                <div class="title-section2">
+                    <h3>✨ La Tiendita Final ✨</h3>
+                    <p>Estos productos vienen directo desde una API. <br> ¡Agregalos al carrito y mirá cómo crece el contador!</p>
+                </div>
+
+                <div id="contador-carrito" style="text-align:right; margin-right:1rem; font-weight:bold;">🛒 Carrito: 0</div>
+                <br>
+                <div id="productos-container" class="grid-container"></div>
+            </section>
+
+            <section>
+                <h2>🛒 Productos en tu carrito</h2>
+                <div id="carrito-container"></div>
+
+                <!-- Botón para vaciar carrito -->
+                <div class="contenedor-boton-flex espaciado-boton">
+                    <button id="vaciar-carrito" class="btn-vaciar">Vaciar carrito</button>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Inicio FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item" style="text-align: left;">
+
+                <p>Escribíme!</p>
+                <a href="mailto:barbarakleiman1@gmail.com">barbarakleiman1@gmail.com</a>
+
+            </div>
+
+            <div class="footer-item" style="text-align: center;">
+                <p>
+                    © 2025. Hecho con <i class="fa-solid fa-heart"></i> por Barbi.<br>Todos los derechos y los izquierdos reservados.
+                </p>
+            </div>
+
+            <div class="footer-item" style="text-align: right;">
+                <p>
+                    Visita mis redes!
+                </p>
+
+                <nav>
+                    <ul class="nav-footer">
+                        <li><a href="https://www.linkedin.com/in/barbarakleiman/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.behance.net/BarbiK"><i class="fa-brands fa-square-behance"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+    <!-- Fin SECTION -->
+
+
+    </div>
+    </footer>
+    <!-- Fin FOOTER -->
+
+        <script src="../js/script.js"></script>
+    </body>
+</html>
